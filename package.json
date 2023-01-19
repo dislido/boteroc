@@ -1,0 +1,38 @@
+{
+  "name": "@dislido/boteroc",
+  "version": "1.0.0-beta.0",
+  "description": "node聊天机器人核心库",
+  "main": "./es/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    ".": "./es/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dislido/boteroc.git"
+  },
+  "engines": {
+    "node": ">=16.11.0"
+  },
+  "author": "DisLido",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dislido/boteroc/issues"
+  },
+  "homepage": "https://github.com/dislido/boteroc#readme",
+  "devDependencies": {
+    "@types/eslint": "^8.4.10",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
